@@ -59,4 +59,4 @@ Axios:处理HTTP请求.
 商品相关页面
 商品列表:展示所有商品，包含分页和选功能。
 商品详情:展示商品详细信息，包括图片、描述等
-GitHub仓库链接：https://github.com/RysnReine/web.git
+GitHub仓库链接：https://github.com/RysnReine/web-.git
