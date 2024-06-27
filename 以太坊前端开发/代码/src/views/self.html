@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>个人中心</title>
+  <link rel="stylesheet" href="../css/base.css">
+  <link rel="stylesheet" href="../css/form.css">
+</head>
+
+<body>
+  <div class="header container">个人中心
+    <p style="display: block;">
+      <a href="./rpwd.html">修改密码</a>
+      <a href="./index.html">回到首页</a>
+    </p>
+  </div>
+  <form>
+    <label>
+      用户名： <input type="text" class="username" disabled>
+    </label>
+    <label>
+      年龄： <input type="text" class="age">
+    </label>
+    <label>
+      性别： <select class='gender'>
+        <option value="">请选择</option>
+        <option value="男">男</option>
+        <option value="女">女</option>
+      </select>
+    </label>
+    <label>
+      昵称： <input type="text" class="nickname">
+    </label>
+    <button>确认修改</button>
+  </form>
+<script src="../js/self.js" type="module"></script>
+</body>
+
+</html>

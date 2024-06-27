@@ -1,0 +1,46 @@
+.content {
+  display: flex;
+  height: 600px;
+  margin: 20px auto;
+}
+
+.content>.left {
+  width: 600px;
+  box-sizing: border-box;
+  margin-right: 10px;
+}
+
+.content>.right {
+  flex: 1;
+  background-color: pink;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.content>.right>.title {
+  font-size: 24px;
+}
+
+.content>.right>.price {
+  color: red;
+  font-size: 40px;
+}
+
+.content>.right .old {
+  color: #666;
+  text-decoration: line-through;
+}
+
+.content>.right .discount {
+  color: yellowgreen;  
+}
+
+
+.content>.right>button {
+  padding: 5px;
+  font-size: 24px;
+  cursor: pointer;
+}
